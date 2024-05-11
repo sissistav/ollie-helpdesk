@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ollie's Helpdesk
+
+## Description
+Ollie's Helpdesk is a web application built with Next.js that serves as a simple ticket management system. The project allows users to add new tickets and view existing tickets. It is designed to streamline the process of managing support or helpdesk requests in a straightforward and efficient manner.
+
+## Features
+- **Ticket Creation**: Users can create new tickets by providing relevant information such as title, description, and priority.
+- **Ticket Listing**: The application displays a list of existing tickets, allowing users to easily view and manage them.
+- **Dynamic Routing**: Utilizes dynamic routing in Next.js to provide a seamless experience when navigating between different ticket pages.
+- **Responsive Design**: The user interface is responsive, ensuring optimal viewing and interaction across various devices and screen sizes.
+
+## Technologies Used
+- **Next.js**: A React framework for building server-side rendered and static web applications.
+- **React**: A JavaScript library for building user interfaces.
+- **JavaScript (ES6+)**: The primary programming language used for frontend development.
+- **HTML/CSS**: Markup and styling languages for structuring and designing the user interface.
+- **Fetch API**: Used for making asynchronous HTTP requests to the backend server for fetching and submitting ticket data.
 
 ## Getting Started
+To run the project locally, follow these steps:
 
-First, run the development server:
+1. Clone this repository to your local machine:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+    ```bash
+    git clone <repository_url>
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+    ```bash
+    cd ollies-helpdesk
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Install dependencies:
 
-## Learn More
+    ```bash
+    npm install
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Start the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```bash
+    npm run dev
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the application.
 
-## Deploy on Vercel
+## Usage
+- **Creating a Ticket**: Click on the "Create" link in the navigation bar and fill out the form with the required details. Click the submit button to create a new ticket.
+- **Viewing Tickets**: Click on the "Dashboard" or "Tickets" link in the navigation bar to view the list of existing tickets. Click on a ticket title to view its details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
+Contributions to improve and enhance Ollie's Helpdesk are welcome! If you have any ideas, bug fixes, or feature requests, please feel free to open an issue or submit a pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+This project is licensed under the [MIT License](LICENSE).
