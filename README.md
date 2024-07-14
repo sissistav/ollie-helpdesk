@@ -43,7 +43,28 @@ To run the project locally, follow these steps:
     npm run dev
     ```
 
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the application.
+## Running the JSON Server
+
+To manage the ticket data, you need to run `json-server`:
+
+### Install `json-server` Globally
+
+5. Ensure you have `json-server` installed globally on your machine:
+
+```bash
+npm install -g json-server
+```
+
+6. Start json-server
+Start json-server with the following command to watch the _data/db.json file:
+
+```bash
+json-server --watch --port 4000 ./_data/db.json
+```
+
+This command will serve the contents of _data/db.json on http://localhost:4000.
+
+7. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the application.
 
 ## Usage
 - **Creating a Ticket**: Click on the "Create" link in the navigation bar and fill out the form with the required details. Click the submit button to create a new ticket.
