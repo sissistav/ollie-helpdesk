@@ -21,7 +21,8 @@ async function getTicket(id) {
 
 export default async function TicketDetails({ params }) {
     try {
-        const ticket = await getTicket(params.id);
+        const { id } = await params;
+        const ticket = await getTicket(id);
 
         return (
             <main>
